@@ -96,11 +96,14 @@ function setItem(key: string, value: string) {
 }
 
 function getLanguage() {
+ /*
   try {
     return navigator.language.toLowerCase();
   } catch {
     return DEFAULT_LANG;
   }
+  */
+  return DEFAULT_LANG;
 }
 
 export function getLang(): Lang {
