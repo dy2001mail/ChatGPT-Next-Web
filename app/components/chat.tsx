@@ -491,6 +491,8 @@ export function ChatActions(props: {
           icon={<BottomIcon />}
         />
       )}
+
+      {/* 
       {props.hitBottom && (
         <ChatAction
           onClick={props.showPromptModal}
@@ -498,6 +500,7 @@ export function ChatActions(props: {
           icon={<SettingsIcon />}
         />
       )}
+      */}
 
       {showUploadImage && (
         <ChatAction
@@ -522,14 +525,13 @@ export function ChatActions(props: {
         }
       />
 
-     {/* 
+      {/* 
       <ChatAction
         onClick={props.showPromptHints}
         text={Locale.Chat.InputActions.Prompt}
         icon={<PromptIcon />}
       />
 
-      
       <ChatAction
         onClick={() => {
           navigate(Path.Masks);
@@ -554,11 +556,13 @@ export function ChatActions(props: {
         }}
       />
 
+      {/* 
       <ChatAction
         onClick={() => setShowModelSelector(true)}
         text={currentModel}
         icon={<RobotIcon />}
       />
+      */}
 
       {showModelSelector && (
         <Selector
