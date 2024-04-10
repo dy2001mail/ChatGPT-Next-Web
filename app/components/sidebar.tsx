@@ -226,6 +226,7 @@ export function SideBar(props: { className?: string }) {
           </div>
           */}
         </div>
+        {/*
         <div>
           <IconButton
             icon={<AddIcon />}
@@ -241,6 +242,7 @@ export function SideBar(props: { className?: string }) {
             shadow
           />
         </div>
+        */}
       </div>
 
       <div
