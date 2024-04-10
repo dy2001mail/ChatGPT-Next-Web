@@ -61,7 +61,8 @@ const bn: PartialLocaleType = {
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += ", Shift + Enter to wrap";
       }
-      return inputHints + ", / to search prompts, : to use commands";
+      //return inputHints + ", / to search prompts, : to use commands";
+      return inputHints;
     },
     Send: "প্রেরণ করুন",
     Config: {
