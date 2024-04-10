@@ -165,6 +165,7 @@ export function SideBar(props: { className?: string }) {
         </div>
       </div>
 
+      {/*
       <div className={styles["sidebar-header-bar"]}>
         <IconButton
           icon={<MaskIcon />}
@@ -186,7 +187,8 @@ export function SideBar(props: { className?: string }) {
           onClick={() => showToast(Locale.WIP)}
           shadow
         />
-      </div>
+      </div> 
+      */}
 
       <div
         className={styles["sidebar-body"]}
