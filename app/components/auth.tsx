@@ -50,6 +50,7 @@ export function AuthPage() {
           );
         }}
       />
+{/*       
       {!accessStore.hideUserApiKey ? (
         <>
           <div className={styles["auth-tips"]}>{Locale.Auth.SubTips}</div>
@@ -76,8 +77,8 @@ export function AuthPage() {
             }}
           />
         </>
-      ) : null}
-
+      ) : null} 
+*/}
       <div className={styles["auth-actions"]}>
         <IconButton
           text={Locale.Auth.Confirm}
